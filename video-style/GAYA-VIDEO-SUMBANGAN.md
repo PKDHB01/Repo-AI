@@ -72,19 +72,49 @@ klip 3–6 saat, 9:16, 1080x1920 60fps.
 
 ### B. Prompt untuk AI video generator (Veo / Sora / Kling / Runway)
 
+Nama gaya: **vertical event recap, documentary style, handheld, no voiceover**
+(BM: "video highlight program komuniti" / "video turun padang").
+
+#### B1. Prompt utama
+
 ```
-Vertical 9:16 handheld smartphone documentary footage, 60fps, natural bright
-daylight in a Malaysian kampung community hall compound with coconut palms,
-green grass and a yellow-green painted building. A young Malay community
-leader in a white-red-yellow sports jersey hands yellow food-aid bags, rice
-sacks and trays of eggs to elderly villagers (men in songkok/kopiah, women in
-tudung) sitting on light-blue plastic chairs. Rows of yellow plastic bags on
-folding tables in the foreground. Warm, sincere, friendly atmosphere: handshakes,
-smiles, a hug from an elderly man. Slow handheld push-in and pan, shallow depth
-of field, foreground objects framing the shot, realistic, no cinematic color
-grade, no text.
+Vertical 9:16 event recap video, documentary style, shot handheld on a
+smartphone at 60fps. Natural bright daylight in a Malaysian kampung setting
+with coconut palms, green grass and a colourful community hall.
+[NAMA PROGRAM, cth: a food aid distribution program]. A friendly young
+community leader in a [WARNA BAJU] jersey interacts with local villagers:
+elderly men in kopiah, women in tudung, families sitting on plastic chairs.
+Rows of [BARANG SUMBANGAN, cth: yellow food-aid bags, rice sacks, egg trays]
+on folding tables.
+Mood: sincere, warm, humble, grassroots. Camera: slow handheld push-ins and
+gentle pans, foreground objects framing the subject, shallow depth of field.
+Mix of wide shots, medium shots and emotional close-ups of faces.
+Realistic natural colours, slightly vibrant, no voiceover, no on-screen text.
 ```
-*(Teks tajuk & watermark tambah masa edit — AI generator selalu rosakkan tulisan.)*
+
+#### B2. Prompt ikut babak (jana satu klip 5–10s setiap babak, sambung masa edit)
+
+| # | Babak | Prompt |
+|---|---|---|
+| 1 | Pembuka | `Close-up handheld shot, young leader sitting and chatting warmly with an elderly villager in kopiah, rice sacks blurred in foreground, slow push-in, vertical 9:16` |
+| 2 | Wajah | `Emotional close-up portrait of two elderly Malay men sitting on plastic chairs, looking at camera, soft daylight, shallow depth of field, vertical` |
+| 3 | Barang | `Slow pan across rows of yellow food-aid bags on a folding table, tropical garden background, bright daylight, vertical` |
+| 4 | Suasana | `Wide shot of villagers seated on light-blue plastic chairs under coconut trees waiting for an event, egg trays in foreground, vertical` |
+| 5 | Ucapan | `Medium shot, young leader speaking into a microphone to the crowd, banner in background, handheld, vertical` |
+| 6 | Penyerahan | `Medium shot, leader handing a yellow food bag and egg tray to an elderly woman in tudung, both smiling, handheld, vertical` |
+| 7 | Penutup | `Heartwarming moment, elderly man hugging the young leader and laughing, golden daylight, slow motion, vertical` |
+
+#### B3. Negative prompt (elakkan)
+
+```
+Avoid: on-screen text, logos, distorted hands, extra fingers, cinematic
+teal-orange grade, drone shots, studio lighting, staged posing.
+```
+
+**Tips:**
+- Teks tajuk & watermark tambah masa edit — AI generator selalu rosakkan tulisan.
+- Untuk muka orang sebenar (wakil rakyat, penduduk), guna footage betul;
+  video AI lebih sesuai untuk B-roll (barang, suasana, pemandangan).
 
 ### C. Prompt untuk editor (CapCut / ChatGPT plan edit)
 
